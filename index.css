@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body > div  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title> h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.title .underline {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 40%;
+    border-bottom: 4px solid rgb(0, 183, 255) ;
+    width: 90px;
+}
+.review {
+    text-align: center;
+    padding: 10px 20px;
+}
+.container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 8px 0px 1px rgb(0, 183, 255);
+}
+.review {
+    border: none;
+    width: 350px;
+    height: 350px;
+    background: whitesmoke;
+    box-shadow: 1px 3px 10px black;
+}
+#author {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+#job {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0px;
+    color: rgb(0, 183, 255);
+    text-transform: uppercase;
+}
+#info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.808);
+    margin: 10px 0px;
+}
+.button_container button {
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    background: none;
+}
+#random-btn {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid rgb(0, 183, 255);
+    border-radius: 5px;
+    background: rgba(0, 183, 255, 0.082);
+    color: rgb(0, 183, 255);
+    text-transform: capitalize;
+}
